@@ -1,6 +1,6 @@
 def roll_call_dwarves(roster)
   roster.collect do |dwarf|
-    puts dwarf
+    dwarf
   end
 end
 
