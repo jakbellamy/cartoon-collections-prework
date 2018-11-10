@@ -1,6 +1,6 @@
 def roll_call_dwarves(roster)
   roster.each_with_index.map do |dwarf, index|
-    index dwarf
+    "#{index + 1}. #{dwarf}"
   end
 end
 
