@@ -1,6 +1,6 @@
 def roll_call_dwarves(roster)
   roster.collect do |dwarf, index|
-    puts "#{index + 1}. #{dwarf}"
+    index + 1 dwarf
   end
 end
 
